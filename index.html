@@ -1,10 +1,152 @@
 <!DOCTYPE html>
-<title></title>
 <html lang="en">
 <head>
+<title>inicio</title>
+<meta charset="utf-8">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="font/font-awesome.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/camera.js"></script> 
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+    });
+</script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->  
+<!--[if lt IE 8]>
+		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+<![endif]-->
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="css/ie.css">
+  <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+
+
 </head>
-<html>
 <body>
-<a href="scaffolding.html">wdwdwdwd</a>
+<div class="global">
+<!--header-->
+<header>
+    <div class="container">
+        <h1 class="brand"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+        <div class="navbar navbar_ clearfix">
+            <div class="navbar-inner">      
+                <div class="clearfix">
+                    <div class="nav-collapse nav-collapse_ collapse">
+                        <ul class="nav sf-menu clearfix">
+                           
+                            <li><a href="index.html">inicio<em><i></i></em></a></li> 
+                            <li><a href="nosotros.html">nosotros<em><i></i></em></a></li>  
+                            <li><a href="fotos.html">fotos<em><i></i></em></a></li> 
+                            <li><a href="planes.html">planes<em><i></i></em></a></li> 
+                            <li><a href="contacto.html">contacto<em><i></i></em></a></li>                       
+                        </ul>
+                    </div>                                                                                                                
+                </div>
+            </div>  
+        </div>
+    </div>
+</header>
+<!--content-->
+<article class="slider">
+
+    <div class="camera_wrap">
+         <div data-src="img/picture1.jpg" alt="salón de la casa"><div class="camera-caption fadeIn"><p>Mejor opción <br>para relajarte</p><a href="fotos.html" class="icon-circle-arrow-right"></a><em></em></div></div>
+         <div data-src="img/picture2.jpg" alt="puente del río Segura"><div class="camera-caption fadeIn"><p>Siéntete <br>como en casa</p><a href="fotos.html" class="icon-circle-arrow-right"></a><em></em></div></div>
+         <div data-src="img/picture3.jpg" alt="terraza de la casa"><div class="camera-caption fadeIn"><p>Crea momentos <br>especiales</p><a href="fotos.html" class="icon-circle-arrow-right"></a><em></em></div></div>
+   
+    </div>
+</section>
+<section class="iconBox">
+    <div class="container">
+        <div class="row">
+    		<article class="span6">
+                <div class="thumb-pad2">
+                    <div class="thumbnail">
+                        <p><span class="icon-laptop"></span></p>
+                        <div class="caption">
+                            <a href="contacto.html">Haz tu reserva ahora</a>
+                            <p class="margTop">Contáctanos a través de nuestro formulario y reserva directamente con nuestra página web de forma fácil y sin intermediarios</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="span6">
+                <div class="thumb-pad2">
+                    <div class="thumbnail">
+                        <p><span class="icon-time"></span></p>
+                        <div class="caption">
+                            <a href="contacto.html">Ahorra tiempo reservando con nosotros</a>
+                            <p class="margTop">Tan sencillo como rellenar con tus datos y escribirnos una petición señalando el motivo y la duración de tu estancia en El Romero</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+</div>
+
+
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="pull-right">
+                <article class="span3 offset2">
+                    <div class="foo_info">
+                        <p>C. Arroyo, 18, Vicorto</p>
+                        <p>Albacete, 02439</p>
+                    </div>
+                </article>
+                <article class="span3">
+                    <div class="foo_icon">
+                        <p></span>elromerocasarural@gmail.com</a></p>
+                        <p></span>+34 658685809</p>
+                    </div>
+                </article>
+            </div>
+            <div class="pull-left">
+                <article class="span4">
+                    <figure><img src="img/foo_logo.png" alt="mapa de Vicorto"></figure>
+                    <p>Casa rural El Romero &bull; &copy; 2024 <br> <a href="index-5.html">Política de privacidad</a></p>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="g-map"></div>   
+</footer>
+
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script>
+    $('.thumb-pad4 a').hover(function(){
+        $(this).stop().animate({opacity:0.5});   
+            }, function(){
+                $(this).stop().animate({opacity:1});                 
+    })
+</script>
 </body>
 </html>
